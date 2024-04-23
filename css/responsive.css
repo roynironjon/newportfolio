@@ -1,0 +1,310 @@
+@media screen and (max-width = 1200px){
+    
+}
+@media screen and (max-width:1100px){
+    
+}
+@media screen and (max-width: 1024px){
+    .about-section .main-column {
+        column-gap: 20px;
+        margin: 0px 0px;
+    }
+    .about-section .main-column .education .education-content .content2 table, tr, th, td {
+        padding: 0px 0px;
+        background: transparent;
+        font-size: 14px;
+    }
+    .about-section .main-column .about-content h4 {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .top-header .menu-column .logocolumn {
+        margin-right: 10%;
+        width: 30%;
+    }
+    .top-header .menu-column .menubar {
+        width: 60%;
+        text-align: right;
+    }
+}
+@media screen and (max-width: 989px){
+    .banner-section .main-column .img-column .img {
+        border-top-left-radius: 110px;
+        border-bottom-right-radius: 78px;
+    }
+    .banner-section .main-column .main-content {
+        margin-left: 0px;
+    }
+    .banner-section .main-column .img-column {
+        margin-right: 0px;
+    }
+    .skills-section .main-col .left-col .left-main-content {
+        row-gap: 40px;
+        column-gap: 80px;
+    }
+    .service-section .main-column .flex-column {
+        padding: 20px 5px;
+    }
+    .service-section .main-column {
+        column-gap: 10px;
+    }
+    .footer-section .main-column {
+        grid-template-columns: 2fr 1fr;
+        column-gap: 20px;
+    }
+    .top-header .menu-column .menubar li {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 800px){
+    .banner-section {
+        padding-bottom: 5px;
+    }
+    .skills-section .main-col {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .skills-section .main-col .left-col .left-main-content {
+        padding: 60px 77px;
+    }
+    .skills-section .main-col .left-col .left-main-content .main-skill {
+        margin: 0 auto;
+    }
+    .skills-section .main-col .left-col .left-main-content .main-skill-3 {
+        margin: 0 auto;
+    }
+    .skills-section .main-col .left-col .left-main-content .main-skill-2 {
+        margin: 0 auto;
+    }
+    .skills-section .main-col .left-col .left-main-content .main-skill-4 {
+        margin: 0 auto;
+    }
+    .about-section .main-column {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .about-section .main-column .education .education-content .content2 table, tr, th, td {
+        padding: 5px 5px;
+        background: transparent;
+        font-size: 16px;
+    }
+    .about-section .main-column .img {
+        margin: 0 auto;
+    }
+    .about-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .service-section {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .skills-section {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .contact-section {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .project-section .main-column {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+    }
+    .project-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .top-header .menu-column .logocolumn a {
+        font-size: 22px;
+    }
+    .top-header .menu-column .logocolumn {
+        margin-right: 0%;
+        width: 28%;
+    }
+    .top-header .menu-column .menubar {
+        width: 72%;
+        text-align: right;
+    }
+    .top-header {
+        background: var(--clr-btn-bg);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 0px 20px #090979;
+        z-index: 999;
+    }
+}
+@media screen and (max-width: 767px){
+    .banner-section .main-column {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .banner-section .main-column .img-column {
+        order: 1;
+    }
+    .banner-section .main-column .main-content {
+        order: 2;
+    }
+    .banner-section .main-column .img-column .img {
+        margin: 0 auto;
+        width: 400px;
+        border-bottom-right-radius: 112px;
+        border-top-left-radius: 213px;
+    }
+    .banner-section .main-column .img-column .img img{
+        width: 400px;
+        margin-bottom: -8px;
+        border-bottom-right-radius: 125px;
+    }
+    .banner-section .main-column .img-column .img {
+        position: relative;
+        margin: 0 auto;
+        width: 400px;
+        border-bottom-right-radius: 112px;
+        border-top-left-radius: 213px;
+    }
+    .banner-section .main-column .main-content h1 {
+        font-size: 29px;
+    }
+    .contact-section .main-col {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .service-section .main-column {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .contact-section .main-col .left-col{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 640px){
+    .skills-section .main-col .left-col .left-main-content {
+        padding: 60px 30px;
+    }
+    .project-section .main-column {
+        grid-template-columns: 1fr;
+    }
+    .footer-section .main-column {
+        grid-template-columns: 1fr;
+        row-gap: 5px;
+    }
+    .footer-section .main-column .left-column {
+        text-align: center;
+    }
+    .footer-section .main-column .icon {
+        text-align: center;
+    }
+    .footer-section .main-column .icon li {
+        margin-left: 5px;
+        font-size: 16px;
+    }
+    .top-header .menu-column .logocolumn {
+        width: 100%;
+        order: 2;
+        text-align: right;
+    }
+    .top-header{
+        position: relative;
+    }
+    .top-header .menu-column .menubar {
+        position: absolute;
+        left: -20px;
+        top: -25px;
+        background: rgba(2, 0, 36, 0.8);
+        height: 100vh;
+        text-align: left;
+        padding: 80px 30px;
+        visibility: hidden;
+        opacity: 0;
+        width: 0;
+        transition: .6s;
+    }
+    .top-header .menu-column .menubar.active {
+        width: 320px; 
+        visibility: visible;
+        opacity: 1;
+        right: 0;
+    }
+    .top-header .menu-column .menubar ul li{
+        display: block;
+        line-height: 35px;
+    }
+    .top-header .menu-column .menubar .close-btn {
+        color: #fff;
+        position: absolute;
+        top: 20px;
+        left: 18px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .top-header .menu-column .toggle-btn {
+        width: 30%;
+        color: #fff;
+        text-align: left;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .top-header .menu-column .toggle-btn.active{
+        display: block;
+        width: 30%;
+    }
+    .top-header .menu-column .menubar.active .close-btn{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .skills-section .main-col .left-col .left-main-content {
+        grid-template-columns: 1fr;
+        position: relative;
+        text-align: center;
+    }
+    .skills-section .main-col .left-col .head {
+        position: absolute;
+        left: 40px;
+        color: #333;
+        font-size: 16px;
+        margin: 10px 0px;
+        text-transform: capitalize;
+    }
+}
+@media screen and (max-width: 480px){
+    .banner-section .main-column .img-column .img img {
+        width: 100%;
+    }
+    .banner-section .main-column .img-column .img {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        border-bottom-right-radius: 130px;
+        border-top-left-radius: 130px;
+    }
+    .about-section .main-column .img img {
+        width: 100%;
+        height: auto;
+    }
+    .about-section .main-column .img {
+        width: 100%; 
+        height: auto;
+        margin: 0 auto;
+    }
+    .about-section .main-column .education .education-content .main-edu-ex {
+        height: auto;
+    }
+    .about-section .main-column .education .education-content .content2 table, tr, th, td {
+        padding: 0px 0px;
+        background: transparent;
+        font-size: 14px;
+    }
+    .banner-section .main-column .main-content h4 {
+        font-size: 22px;
+    }
+    .top-header .menu-column .menubar.active {
+        width: calc(100% + 35px);
+    }
+}
