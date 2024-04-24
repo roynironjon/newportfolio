@@ -58,20 +58,22 @@ document.getElementById("button1").addEventListener("click", function() {
     let toggle_btn = document.querySelector('.toggle-btn');
     let close_btn = document.querySelector('.close-btn');
     let menu_bar = document.querySelector('.menubar');
+    let items = document.querySelectorAll('.item');
 
     toggle_btn.addEventListener('click', function(){
-      toggle_btn.classList.remove('active');
-      menu_bar.classList.add('active');
+    toggle_btn.classList.remove('active');
+    menu_bar.classList.add('active');
     });
 
     close_btn.addEventListener('click', function () {
-      toggle_btn.classList.add('active');
-      menu_bar.classList.remove('active');
+    toggle_btn.classList.add('active');
+    menu_bar.classList.remove('active');
     });
 
-    document.addEventListener('click', function(event) {
-        if (menu_bar.contains(event.target) && toggle_btn.contains(event.target)) {
-          menu_bar.classList.remove('active');
-          toggle_btn.classList.remove('active');
-        }
+    // Adding click event listener to each item
+    items.forEach(function(item) {
+        item.addEventListener('click', function () {
+            menu_bar.classList.remove('active');
+            toggle_btn.classList.add('active');
+        });
     });
