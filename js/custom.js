@@ -1,7 +1,6 @@
 // scroll
 let sections = document.querySelectorAll('section');
 let navlinks = document.querySelectorAll('.top-header .menu-column .menubar li a');
-
 window.onscroll = () => {
     sections.forEach(sec => {
         let top = window.scrollY;
